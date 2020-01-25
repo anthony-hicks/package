@@ -1,2 +1,6 @@
 #!/usr/bin/env python
-print("hello from b-script")
+
+import helper
+
+if __name__ == "__main__":
+    print("b-script: " + helper.get_cwd())
